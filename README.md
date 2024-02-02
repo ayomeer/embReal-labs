@@ -24,3 +24,13 @@
   - Circular buffer as array container 
   - Buffer mean using array container iterator
  
+
+# Importing as CubeIDE Project
+
+1) Pull Repo
+2) Delete .location files for project and sub-projects under ´.metadata\.plugins\org.eclipse.core.resources\.projects´
+3) Open CubeIDE using *different workspace* than the repo itself
+4) Import Existing Project and wait for indexer to finish
+5) Build sub-projects
+
+Should even have run configurations ready
