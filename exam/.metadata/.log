@@ -1,0 +1,36 @@
+!SESSION 2024-02-02 13:57:14.577 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-02-02 13:57:23.227
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-02-02 13:57:23.233
+!MESSAGE Log4j2 initialized with config file D:\git_repos\embReal-labs\exam\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-02-02 13:57:29.925
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-02 14:02:24.260
+!MESSAGE Indexed 'EmbReal_Ex_Kuhn_Andreas_CM7' (31 sources, 95 headers) in 4.17 sec: 10,269 declarations; 77,569 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0023%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-02 14:02:26.025
+!MESSAGE Indexed 'EmbReal_Ex_Kuhn_Andreas_CM4' (28 sources, 92 headers) in 1.76 sec: 9,346 declarations; 69,495 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0025%)
+!SESSION 2024-02-02 14:03:13.950 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-02-02 14:03:18.629
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-02-02 14:03:18.629
+!MESSAGE Log4j2 initialized with config file D:\git_repos\embReal-labs\exam\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-02-02 14:03:26.778
+!MESSAGE Started RMI Server, listening on port 41337
