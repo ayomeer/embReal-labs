@@ -12,6 +12,7 @@
 - BlinkyClass
   - Non-Blocking delay using `SystemTick` to write **software-delay class**
   - Using **namespace** `myhal` to organize LED class and non-blocking delay class into a package
+  - Heap memory pool using smartpointer
 
 ## Week 3
 - autoconsole (C++)
