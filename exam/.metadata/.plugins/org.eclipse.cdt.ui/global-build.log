@@ -1,0 +1,63 @@
+14:43:10 **** Incremental Build of configuration Debug for project EmbReal_Ex_Kuhn_Andreas_CM4 ****
+make -j6 all 
+arm-none-eabi-size   EmbReal_Ex_Kuhn_Andreas_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4408	     24	   1568	   6000	   1770	EmbReal_Ex_Kuhn_Andreas_CM4.elf
+Finished building: default.size.stdout
+ 
+14:44:40 **** Incremental Build of configuration Debug for project EmbReal_Ex_Kuhn_Andreas_CM4 ****
+make -j6 all 
+arm-none-eabi-size   EmbReal_Ex_Kuhn_Andreas_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4408	     24	   1568	   6000	   1770	EmbReal_Ex_Kuhn_Andreas_CM4.elf
+Finished building: default.size.stdout
+ 
+14:44:40 **** Incremental Build of configuration Debug for project EmbReal_Ex_Kuhn_Andreas_CM7 ****
+make -j6 all 
+arm-none-eabi-size   EmbReal_Ex_Kuhn_Andreas_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26332	    216	   3248	  29796	   7464	EmbReal_Ex_Kuhn_Andreas_CM7.elf
+Finished building: default.size.stdout
+ 
+14:46:17 **** Incremental Build of configuration Debug for project EmbReal_Ex_Kuhn_Andreas_CM7 ****
+make -j6 all 
+arm-none-eabi-size   EmbReal_Ex_Kuhn_Andreas_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26332	    216	   3248	  29796	   7464	EmbReal_Ex_Kuhn_Andreas_CM7.elf
+Finished building: default.size.stdout
+ 
+14:46:18 **** Incremental Build of configuration Debug for project EmbReal_Ex_Kuhn_Andreas_CM4 ****
+make -j6 all 
+arm-none-eabi-size   EmbReal_Ex_Kuhn_Andreas_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4408	     24	   1568	   6000	   1770	EmbReal_Ex_Kuhn_Andreas_CM4.elf
+Finished building: default.size.stdout
+ 
+14:49:34 **** Incremental Build of configuration Debug for project EmbReal_Ex_Kuhn_Andreas_CM4 ****
+make -j6 all 
+arm-none-eabi-size   EmbReal_Ex_Kuhn_Andreas_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4408	     24	   1568	   6000	   1770	EmbReal_Ex_Kuhn_Andreas_CM4.elf
+Finished building: default.size.stdout
+ 
+14:49:35 **** Incremental Build of configuration Debug for project EmbReal_Ex_Kuhn_Andreas_CM7 ****
+make -j6 all 
+arm-none-eabi-size   EmbReal_Ex_Kuhn_Andreas_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26332	    216	   3248	  29796	   7464	EmbReal_Ex_Kuhn_Andreas_CM7.elf
+Finished building: default.size.stdout
+ 
+14:50:36 **** Incremental Build of configuration Debug for project EmbReal_Ex_Kuhn_Andreas_CM4 ****
+make -j6 all 
+arm-none-eabi-size   EmbReal_Ex_Kuhn_Andreas_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4408	     24	   1568	   6000	   1770	EmbReal_Ex_Kuhn_Andreas_CM4.elf
+Finished building: default.size.stdout
+ 
+14:50:37 **** Incremental Build of configuration Debug for project EmbReal_Ex_Kuhn_Andreas_CM7 ****
+make -j6 all 
+arm-none-eabi-size   EmbReal_Ex_Kuhn_Andreas_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26332	    216	   3248	  29796	   7464	EmbReal_Ex_Kuhn_Andreas_CM7.elf
+Finished building: default.size.stdout
+ 

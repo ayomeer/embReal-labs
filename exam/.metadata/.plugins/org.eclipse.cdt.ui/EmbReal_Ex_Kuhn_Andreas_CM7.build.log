@@ -1,0 +1,10 @@
+14:50:37 **** Incremental Build of configuration Debug for project EmbReal_Ex_Kuhn_Andreas_CM7 ****
+make -j6 all 
+arm-none-eabi-size   EmbReal_Ex_Kuhn_Andreas_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26332	    216	   3248	  29796	   7464	EmbReal_Ex_Kuhn_Andreas_CM7.elf
+Finished building: default.size.stdout
+ 
+
+14:50:37 Build Finished. 0 errors, 0 warnings. (took 211ms)
+
