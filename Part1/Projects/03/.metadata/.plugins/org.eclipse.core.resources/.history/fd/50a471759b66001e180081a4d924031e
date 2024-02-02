@@ -1,0 +1,24 @@
+#include "cppMain.h"
+#include "main.h"
+
+
+extern UART_HandleTypeDef huart3;
+
+
+
+uint8_t data[] = "VCP \n\r"; // uint8_t ~ char
+void testVCP(){
+	HAL_UART_Transmit(&huart3, data, sizeof(data), 5);
+	HAL_Delay(1000);
+}
+
+void cppMain(){
+	// New cpp main loop
+	while(1){
+
+
+
+	}
+}
+
+

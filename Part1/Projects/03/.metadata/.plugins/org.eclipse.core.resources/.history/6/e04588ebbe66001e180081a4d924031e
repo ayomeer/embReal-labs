@@ -1,0 +1,18 @@
+#include "cppMain.h"
+#include "main.h"
+#include <iostream>
+
+extern UART_HandleTypeDef huart3;
+
+
+
+void cppMain(){
+	std::cout<<"Outputting Gyro Values to VCP \n\r";
+
+	while(1){
+
+		HAL_Delay(1000);
+	}
+}
+
+

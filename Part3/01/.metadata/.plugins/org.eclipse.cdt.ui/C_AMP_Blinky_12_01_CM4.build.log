@@ -1,0 +1,10 @@
+18:03:04 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+
+18:03:04 Build Finished. 0 errors, 0 warnings. (took 204ms)
+

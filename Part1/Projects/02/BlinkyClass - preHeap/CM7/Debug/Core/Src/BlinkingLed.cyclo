@@ -1,0 +1,5 @@
+../Core/Src/BlinkingLed.cpp:11:1:BlinkingLed::BlinkingLed(GPIO_TypeDef*, uint16_t)	1
+../Core/Src/BlinkingLed.cpp:15:1:BlinkingLed::BlinkingLed(GPIO_TypeDef*, uint16_t, float_t, uint8_t)	1
+../Core/Src/BlinkingLed.cpp:19:6:void BlinkingLed::setDutyCycle(uint8_t)	1
+../Core/Src/BlinkingLed.cpp:22:6:void BlinkingLed::setFrequency(float)	1
+../Core/Src/BlinkingLed.cpp:26:6:void BlinkingLed::processBlinking()	2

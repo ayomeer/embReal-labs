@@ -1,0 +1,13 @@
+#include "cppMain.h"
+#include "main.h"
+
+extern UART_HandleTypeDef huart3;
+
+void cppMain(){
+	// New cpp main loop
+	while(1){
+
+	}
+}
+
+

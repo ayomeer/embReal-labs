@@ -1,0 +1,12 @@
+#include "cppMain.h"
+#include "main.h"
+
+
+void cppMain(){
+	// New cpp main loop
+	while(1){
+
+	}
+}
+
+

@@ -1,0 +1,31 @@
+#include "cppMain.h"
+#include "main.h"
+#include <iostream>
+//#include <cstdint>
+#include "AccGyroSensor.h"
+
+// global accelerator variables
+int32_t accX;
+int32_t accY;
+int32_t accZ;
+
+void cppMain(){
+
+	AccGyroSensor accGyroSens;
+	accGyroSens.initSensor();
+
+	std::cout << "Outputting Gyro Values to VCP \n\r";
+
+	while(1){
+		accGyroSens.updateValues();
+		accGyroSens.getValues(&accX, &accY, &accZ);
+
+
+		std::cout << "Gyro Values \n\r";
+		std::cout << "X: " << accGyroSens.
+
+		HAL_Delay(1000);
+	}
+}
+
+

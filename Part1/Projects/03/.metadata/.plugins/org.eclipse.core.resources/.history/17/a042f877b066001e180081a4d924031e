@@ -1,0 +1,18 @@
+/*
+ * IKS01A3Motion.cpp
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: ayome
+ */
+
+#include "IKS01A3Motion.h"
+
+IKS01A3_Motion::IKS01A3_Motion() {
+	// TODO Auto-generated constructor stub
+
+}
+
+IKS01A3_Motion::~IKS01A3_Motion() {
+	// TODO Auto-generated destructor stub
+}
+

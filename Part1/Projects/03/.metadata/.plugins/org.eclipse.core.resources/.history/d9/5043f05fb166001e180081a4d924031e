@@ -1,0 +1,17 @@
+/*
+ * IKS01A3Motion.h
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: ayome
+ */
+
+#ifndef IKS01A3MOTION_H_
+#define IKS01A3MOTION_H_
+
+class IKS01A3_Motion {
+public:
+	IKS01A3_Motion();
+	virtual ~IKS01A3_Motion();
+};
+
+#endif /* IKS01A3MOTION_H_ */

@@ -1,0 +1,119 @@
+21:14:59 **** Incremental Build of configuration Debug for project IKS01A3_CM7 ****
+make -j6 all 
+arm-none-eabi-g++ "../Core/Src/IKS01A3_Motion.cpp" -mcpu=cortex-m7 -std=gnu++14 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -I../X-CUBE-MEMS1/Target -I../../Drivers/BSP/Components/lsm6dso -I../../Drivers/BSP/Components/lis2dw12 -I../../Drivers/BSP/Components/lis2mdl -I../../Drivers/BSP/Components/hts221 -I../../Drivers/BSP/Components/lps22hh -I../../Drivers/BSP/Components/stts751 -I../../Drivers/BSP/IKS01A3 -I../../Drivers/BSP/Components/Common -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IKS01A3_Motion.d" -MT"Core/Src/IKS01A3_Motion.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IKS01A3_Motion.o"
+arm-none-eabi-g++ -o "IKS01A3_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Projects\03\IKS01A3\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IKS01A3_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: IKS01A3_CM7.elf
+ 
+arm-none-eabi-size   IKS01A3_CM7.elf 
+arm-none-eabi-objdump -h -S  IKS01A3_CM7.elf  > "IKS01A3_CM7.list"
+   text	   data	    bss	    dec	    hex	filename
+ 211292	   1160	   9672	 222124	  363ac	IKS01A3_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: IKS01A3_CM7.list
+ 
+21:18:51 **** Incremental Build of configuration Debug for project IKS01A3_CM4 ****
+make -j6 all 
+arm-none-eabi-size   IKS01A3_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3128	     24	   1568	   4720	   1270	IKS01A3_CM4.elf
+Finished building: default.size.stdout
+ 
+21:18:52 **** Incremental Build of configuration Debug for project IKS01A3_CM7 ****
+make -j6 all 
+arm-none-eabi-g++ "../Core/Src/IKS01A3_Motion.cpp" -mcpu=cortex-m7 -std=gnu++14 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -I../X-CUBE-MEMS1/Target -I../../Drivers/BSP/Components/lsm6dso -I../../Drivers/BSP/Components/lis2dw12 -I../../Drivers/BSP/Components/lis2mdl -I../../Drivers/BSP/Components/hts221 -I../../Drivers/BSP/Components/lps22hh -I../../Drivers/BSP/Components/stts751 -I../../Drivers/BSP/IKS01A3 -I../../Drivers/BSP/Components/Common -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IKS01A3_Motion.d" -MT"Core/Src/IKS01A3_Motion.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IKS01A3_Motion.o"
+arm-none-eabi-g++ -o "IKS01A3_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Projects\03\IKS01A3\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IKS01A3_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: IKS01A3_CM7.elf
+ 
+arm-none-eabi-size   IKS01A3_CM7.elf 
+arm-none-eabi-objdump -h -S  IKS01A3_CM7.elf  > "IKS01A3_CM7.list"
+   text	   data	    bss	    dec	    hex	filename
+ 211492	   1160	   9672	 222324	  36474	IKS01A3_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: IKS01A3_CM7.list
+ 
+21:20:21 **** Incremental Build of configuration Debug for project IKS01A3_CM4 ****
+make -j6 all 
+arm-none-eabi-size   IKS01A3_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3128	     24	   1568	   4720	   1270	IKS01A3_CM4.elf
+Finished building: default.size.stdout
+ 
+21:20:22 **** Incremental Build of configuration Debug for project IKS01A3_CM7 ****
+make -j6 all 
+arm-none-eabi-g++ "../Core/Src/IKS01A3_Motion.cpp" -mcpu=cortex-m7 -std=gnu++14 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -I../X-CUBE-MEMS1/Target -I../../Drivers/BSP/Components/lsm6dso -I../../Drivers/BSP/Components/lis2dw12 -I../../Drivers/BSP/Components/lis2mdl -I../../Drivers/BSP/Components/hts221 -I../../Drivers/BSP/Components/lps22hh -I../../Drivers/BSP/Components/stts751 -I../../Drivers/BSP/IKS01A3 -I../../Drivers/BSP/Components/Common -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IKS01A3_Motion.d" -MT"Core/Src/IKS01A3_Motion.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IKS01A3_Motion.o"
+arm-none-eabi-g++ -o "IKS01A3_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Projects\03\IKS01A3\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IKS01A3_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: IKS01A3_CM7.elf
+ 
+arm-none-eabi-size   IKS01A3_CM7.elf 
+arm-none-eabi-objdump -h -S  IKS01A3_CM7.elf  > "IKS01A3_CM7.list"
+   text	   data	    bss	    dec	    hex	filename
+ 211572	   1160	   9672	 222404	  364c4	IKS01A3_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: IKS01A3_CM7.list
+ 
+21:21:48 **** Incremental Build of configuration Debug for project IKS01A3_CM4 ****
+make -j6 all 
+arm-none-eabi-size   IKS01A3_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3128	     24	   1568	   4720	   1270	IKS01A3_CM4.elf
+Finished building: default.size.stdout
+ 
+21:21:48 **** Incremental Build of configuration Debug for project IKS01A3_CM7 ****
+make -j6 all 
+arm-none-eabi-g++ "../Core/Src/IKS01A3_Motion.cpp" -mcpu=cortex-m7 -std=gnu++14 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -I../X-CUBE-MEMS1/Target -I../../Drivers/BSP/Components/lsm6dso -I../../Drivers/BSP/Components/lis2dw12 -I../../Drivers/BSP/Components/lis2mdl -I../../Drivers/BSP/Components/hts221 -I../../Drivers/BSP/Components/lps22hh -I../../Drivers/BSP/Components/stts751 -I../../Drivers/BSP/IKS01A3 -I../../Drivers/BSP/Components/Common -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IKS01A3_Motion.d" -MT"Core/Src/IKS01A3_Motion.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IKS01A3_Motion.o"
+arm-none-eabi-g++ -o "IKS01A3_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Projects\03\IKS01A3\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IKS01A3_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: IKS01A3_CM7.elf
+ 
+arm-none-eabi-size   IKS01A3_CM7.elf 
+arm-none-eabi-objdump -h -S  IKS01A3_CM7.elf  > "IKS01A3_CM7.list"
+   text	   data	    bss	    dec	    hex	filename
+ 211820	   1160	   9672	 222652	  365bc	IKS01A3_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: IKS01A3_CM7.list
+ 
+21:25:38 **** Incremental Build of configuration Debug for project IKS01A3_CM4 ****
+make -j6 all 
+arm-none-eabi-size   IKS01A3_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3128	     24	   1568	   4720	   1270	IKS01A3_CM4.elf
+Finished building: default.size.stdout
+ 
+21:25:39 **** Incremental Build of configuration Debug for project IKS01A3_CM7 ****
+make -j6 all 
+arm-none-eabi-g++ "../Core/Src/IKS01A3_Motion.cpp" -mcpu=cortex-m7 -std=gnu++14 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -I../X-CUBE-MEMS1/Target -I../../Drivers/BSP/Components/lsm6dso -I../../Drivers/BSP/Components/lis2dw12 -I../../Drivers/BSP/Components/lis2mdl -I../../Drivers/BSP/Components/hts221 -I../../Drivers/BSP/Components/lps22hh -I../../Drivers/BSP/Components/stts751 -I../../Drivers/BSP/IKS01A3 -I../../Drivers/BSP/Components/Common -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IKS01A3_Motion.d" -MT"Core/Src/IKS01A3_Motion.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IKS01A3_Motion.o"
+arm-none-eabi-g++ -o "IKS01A3_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Projects\03\IKS01A3\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IKS01A3_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: IKS01A3_CM7.elf
+ 
+arm-none-eabi-size   IKS01A3_CM7.elf 
+arm-none-eabi-objdump -h -S  IKS01A3_CM7.elf  > "IKS01A3_CM7.list"
+   text	   data	    bss	    dec	    hex	filename
+ 211572	   1160	   9672	 222404	  364c4	IKS01A3_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: IKS01A3_CM7.list
+ 
+21:26:06 **** Incremental Build of configuration Debug for project IKS01A3_CM4 ****
+make -j6 all 
+arm-none-eabi-size   IKS01A3_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3128	     24	   1568	   4720	   1270	IKS01A3_CM4.elf
+Finished building: default.size.stdout
+ 
+21:26:07 **** Incremental Build of configuration Debug for project IKS01A3_CM7 ****
+make -j6 all 
+arm-none-eabi-g++ "../Core/Src/IKS01A3_Motion.cpp" -mcpu=cortex-m7 -std=gnu++14 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -I../X-CUBE-MEMS1/Target -I../../Drivers/BSP/Components/lsm6dso -I../../Drivers/BSP/Components/lis2dw12 -I../../Drivers/BSP/Components/lis2mdl -I../../Drivers/BSP/Components/hts221 -I../../Drivers/BSP/Components/lps22hh -I../../Drivers/BSP/Components/stts751 -I../../Drivers/BSP/IKS01A3 -I../../Drivers/BSP/Components/Common -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IKS01A3_Motion.d" -MT"Core/Src/IKS01A3_Motion.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IKS01A3_Motion.o"
+arm-none-eabi-g++ -o "IKS01A3_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Projects\03\IKS01A3\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IKS01A3_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: IKS01A3_CM7.elf
+ 
+arm-none-eabi-size   IKS01A3_CM7.elf 
+arm-none-eabi-objdump -h -S  IKS01A3_CM7.elf  > "IKS01A3_CM7.list"
+   text	   data	    bss	    dec	    hex	filename
+ 211820	   1160	   9672	 222652	  365bc	IKS01A3_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: IKS01A3_CM7.list
+ 

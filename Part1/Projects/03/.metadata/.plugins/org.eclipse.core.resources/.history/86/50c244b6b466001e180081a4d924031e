@@ -1,0 +1,18 @@
+/*
+ * AccSensor.cpp
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: ayome
+ */
+
+#include "AccSensor.h"
+
+AccSensor::AccSensor() {
+	// TODO Auto-generated constructor stub
+
+}
+
+AccSensor::~AccSensor() {
+	// TODO Auto-generated destructor stub
+}
+

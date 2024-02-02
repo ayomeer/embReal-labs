@@ -1,0 +1,10 @@
+21:26:06 **** Incremental Build of configuration Debug for project IKS01A3_CM4 ****
+make -j6 all 
+arm-none-eabi-size   IKS01A3_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3128	     24	   1568	   4720	   1270	IKS01A3_CM4.elf
+Finished building: default.size.stdout
+ 
+
+21:26:07 Build Finished. 0 errors, 0 warnings. (took 304ms)
+

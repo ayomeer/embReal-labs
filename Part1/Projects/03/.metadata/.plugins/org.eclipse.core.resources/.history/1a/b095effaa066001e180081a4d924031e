@@ -1,0 +1,19 @@
+#include "cppMain.h"
+#include "main.h"
+#include <iostream>
+
+extern UART_HandleTypeDef huart3;
+
+
+
+void cppMain(){
+	while(1){
+		for(auto i=0; i++; i<255){
+
+		}
+		std::cout<<"Hello?\n\r";
+		HAL_Delay(1000);
+	}
+}
+
+

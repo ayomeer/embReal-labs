@@ -1,0 +1,38 @@
+---------------------------------------------------
+C-Programming
+---------------------------------------------------
+
+Structs
+
+Unions
+
+Combining structs & Unions
+	Protocols
+	
+	union{
+		struct
+		struct
+	}
+
+
+Im many cases a C-module can function similarly to 
+a class
+
+---------------------------------------------------
+Cpp-Programming
+---------------------------------------------------
+
+New: Multiple instantiations of modules (objects)
+
+Dynamic Memory: Heap
+
+Classes
+	Getter/Setter
+		Gain: More control over in- and output
+		      Clearer for other users
+			  
+		Cost: Push & Pop from stack
+			  More cycles for checks
+			  
+	Instantiation Methods
+		MyClass obj; --> 

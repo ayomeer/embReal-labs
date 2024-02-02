@@ -1,0 +1,27 @@
+/*
+ * IKS01A3Motion.h
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: ayome
+ */
+
+#ifndef IKS01A3MOTION_H_
+#define IKS01A3MOTION_H_
+
+#include "iks01a3_motion_sensors.h"
+#include <array>
+
+class IKS01A3_Motion {
+private:
+	IKS01A3_MOTION_SENSOR_Axes_t axisValues;
+	IKS01A3_MOTION_SENSOR_Axes_t axisOffsets;
+
+	std::array<int32_t, 6> ringBufferAxisX; // Used as ring buffers
+	std::array<int32_t, 6> ringBufferAxisY;
+	std::array<int32_t, 6> ringBufferAxisZ;
+public:
+	IKS01A3_Motion();
+	virtual ~IKS01A3_Motion();
+};
+
+#endif /* IKS01A3MOTION_H_ */

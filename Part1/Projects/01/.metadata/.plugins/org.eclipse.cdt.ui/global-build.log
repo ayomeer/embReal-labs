@@ -1,0 +1,4 @@
+20:25:39 **** Build of configuration Debug for project NotBlockingDelay_CM4 ****
+make -j6 all 
+make: *** No rule to make target 'C:/Users/ayome/OneDrive/switchdrive/MSE/TSM_EmbReal/Projects/CubeWS/NotBlockingDelay/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c', needed by 'Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.o'.  Stop.
+"make -j6 all" terminated with exit code 2. Build might be incomplete.

@@ -1,0 +1,35 @@
+/*
+ * IKS01A3Motion.cpp
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: ayome
+ */
+
+#include "IKS01A3_Motion.h"
+
+
+IKS01A3_Motion::IKS01A3_Motion() {}
+
+IKS01A3_Motion::~IKS01A3_Motion() {}
+
+
+void init(uint32_t instance, uint32_t function){
+	IKS01A3_MOTION_SENSOR_Init(instance, function); // from BSP API iks01a3_motion_sensors.h
+}
+
+void enable(uint32_t instance, uint32_t function){
+	IKS01A3_MOTION_SENSOR_Enable(instance, function);
+}
+
+// set all Axis values
+void setZero(){
+
+}
+
+void updateValues(uint32_t instance, uint32_t function){
+
+}
+
+void getAVGValues(uint32_t* XAxis, uint32_t* YAxis, uint32_t* ZAxis){
+
+}

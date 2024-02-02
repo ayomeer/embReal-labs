@@ -1,0 +1,16 @@
+#include "cppMain.h"
+#include "main.h"
+
+
+
+void cppMain(){
+	// New cpp main loop
+	while(1){
+
+		HAL_UART_Transmit(&huart3, pData, Size, Timeout)
+		HAL_Delay(1000);
+
+	}
+}
+
+

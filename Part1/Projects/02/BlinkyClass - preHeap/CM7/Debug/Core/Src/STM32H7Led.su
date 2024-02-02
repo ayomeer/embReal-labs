@@ -1,0 +1,2 @@
+../Core/Src/STM32H7Led.cpp:14:1:myhal::STM32H7Led::STM32H7Led(GPIO_TypeDef*, uint16_t)	24	static
+../Core/Src/STM32H7Led.cpp:20:6:void myhal::STM32H7Led::toggleLED()	16	static

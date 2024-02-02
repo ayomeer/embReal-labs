@@ -1,0 +1,21 @@
+/*
+ * AccSensor.cpp
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: ayome
+ */
+
+#include "AccSensor.h"
+
+AccSensor::AccSensor() {}
+
+AccSensor::~AccSensor() {}
+
+
+AccSensor::initSensor(){
+
+}
+
+AccSensor::updateValues(){
+
+}

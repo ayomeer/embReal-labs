@@ -1,0 +1,182 @@
+17:28:27 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM7 ****
+make -j6 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "C_AMP_Blinky_12_01_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\git_repos\embRealLabs\Part3\01\C_AMP_Blinky_12_01\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="C_AMP_Blinky_12_01_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: C_AMP_Blinky_12_01_CM7.elf
+ 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM7.elf 
+arm-none-eabi-objdump -h -S  C_AMP_Blinky_12_01_CM7.elf  > "C_AMP_Blinky_12_01_CM7.list"
+   text	   data	    bss	    dec	    hex	filename
+  26508	    216	   3248	  29972	   7514	C_AMP_Blinky_12_01_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: C_AMP_Blinky_12_01_CM7.list
+ 
+17:28:35 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4320	     24	   1568	   5912	   1718	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+17:28:35 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM7 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26508	    216	   3248	  29972	   7514	C_AMP_Blinky_12_01_CM7.elf
+Finished building: default.size.stdout
+ 
+17:44:19 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "C_AMP_Blinky_12_01_CM4.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\git_repos\embRealLabs\Part3\01\C_AMP_Blinky_12_01\CM4\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="C_AMP_Blinky_12_01_CM4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: C_AMP_Blinky_12_01_CM4.elf
+ 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+arm-none-eabi-objdump -h -S  C_AMP_Blinky_12_01_CM4.elf  > "C_AMP_Blinky_12_01_CM4.list"
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+Finished building: C_AMP_Blinky_12_01_CM4.list
+ 
+17:44:20 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM7 ****
+make -j6 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "C_AMP_Blinky_12_01_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\git_repos\embRealLabs\Part3\01\C_AMP_Blinky_12_01\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="C_AMP_Blinky_12_01_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: C_AMP_Blinky_12_01_CM7.elf
+ 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM7.elf 
+arm-none-eabi-objdump -h -S  C_AMP_Blinky_12_01_CM7.elf  > "C_AMP_Blinky_12_01_CM7.list"
+   text	   data	    bss	    dec	    hex	filename
+  26560	    216	   3248	  30024	   7548	C_AMP_Blinky_12_01_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: C_AMP_Blinky_12_01_CM7.list
+ 
+17:44:54 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+17:44:54 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM7 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26560	    216	   3248	  30024	   7548	C_AMP_Blinky_12_01_CM7.elf
+Finished building: default.size.stdout
+ 
+17:45:35 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+17:45:35 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM7 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26560	    216	   3248	  30024	   7548	C_AMP_Blinky_12_01_CM7.elf
+Finished building: default.size.stdout
+ 
+17:45:56 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+17:50:33 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+17:50:34 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM7 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26560	    216	   3248	  30024	   7548	C_AMP_Blinky_12_01_CM7.elf
+Finished building: default.size.stdout
+ 
+17:53:14 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+17:53:15 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM7 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26560	    216	   3248	  30024	   7548	C_AMP_Blinky_12_01_CM7.elf
+Finished building: default.size.stdout
+ 
+17:54:36 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+17:54:36 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM7 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26560	    216	   3248	  30024	   7548	C_AMP_Blinky_12_01_CM7.elf
+Finished building: default.size.stdout
+ 
+17:55:05 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+17:58:40 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+17:58:41 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM7 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26560	    216	   3248	  30024	   7548	C_AMP_Blinky_12_01_CM7.elf
+Finished building: default.size.stdout
+ 
+18:00:39 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+18:02:54 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 
+18:02:54 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM7 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26560	    216	   3248	  30024	   7548	C_AMP_Blinky_12_01_CM7.elf
+Finished building: default.size.stdout
+ 
+18:03:04 **** Incremental Build of configuration Debug for project C_AMP_Blinky_12_01_CM4 ****
+make -j6 all 
+arm-none-eabi-size   C_AMP_Blinky_12_01_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4232	     24	   1568	   5824	   16c0	C_AMP_Blinky_12_01_CM4.elf
+Finished building: default.size.stdout
+ 

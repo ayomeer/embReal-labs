@@ -1,0 +1,17 @@
+23:05:03 **** Incremental Build of configuration Debug for project BlinkyClass_CM7 ****
+make -j6 all 
+arm-none-eabi-g++ "../Core/Src/cppMain.cpp" -mcpu=cortex-m7 -std=gnu++14 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/cppMain.d" -MT"Core/Src/cppMain.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/cppMain.o"
+arm-none-eabi-g++ -o "BlinkyClass_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Projects\02\BlinkyClass\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BlinkyClass_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: BlinkyClass_CM7.elf
+ 
+arm-none-eabi-size   BlinkyClass_CM7.elf 
+arm-none-eabi-objdump -h -S  BlinkyClass_CM7.elf  > "BlinkyClass_CM7.list"
+   text	   data	    bss	    dec	    hex	filename
+  27092	    220	   3320	  30632	   77a8	BlinkyClass_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: BlinkyClass_CM7.list
+ 
+
+23:05:04 Build Finished. 0 errors, 0 warnings. (took 1s.119ms)
+

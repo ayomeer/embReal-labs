@@ -1,0 +1,14 @@
+#include "cppMain.h"
+#include "main.h"
+
+extern UART_HandleTypeDef huart3;
+
+void cppMain(){
+	std::cout<<"Starting... \n\r";
+
+	while(1){
+
+	}
+}
+
+

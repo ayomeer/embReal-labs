@@ -1,0 +1,17 @@
+/*
+ * AccSensor.h
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: ayome
+ */
+
+#ifndef ACCSENSOR_H_
+#define ACCSENSOR_H_
+
+class AccSensor {
+public:
+	AccSensor();
+	virtual ~AccSensor();
+};
+
+#endif /* ACCSENSOR_H_ */

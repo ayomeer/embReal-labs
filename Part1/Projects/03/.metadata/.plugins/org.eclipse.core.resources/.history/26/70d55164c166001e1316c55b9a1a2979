@@ -1,0 +1,27 @@
+/*
+ * AccSensor.h
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: ayome
+ */
+
+#ifndef ACCSENSOR_H_
+#define ACCSENSOR_H_
+
+#include "IKS01A3Motion.h"
+
+class AccSensor {
+public:
+	AccSensor();
+	virtual ~AccSensor();
+
+	void initSensor();
+	void updateValues();
+
+private:
+	const uint32_t INSTANCE;
+	const uint32_t FUNCTION_ACC = MOTION_ACCELERO; // constants defined in iks01a3_motion_sensors.h
+
+};
+
+#endif /* ACCSENSOR_H_ */
