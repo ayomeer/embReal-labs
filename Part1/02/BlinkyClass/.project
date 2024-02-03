@@ -3,8 +3,6 @@
 	<name>BlinkyClass</name>
 	<comment></comment>
 	<projects>
-		<project>BlinkyClass_CM4</project>
-		<project>BlinkyClass_CM7</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>

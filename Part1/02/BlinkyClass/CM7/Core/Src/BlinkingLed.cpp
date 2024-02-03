@@ -1,4 +1,3 @@
-
 /*
  * BlinkingLed.cpp
  *
@@ -7,9 +6,6 @@
  */
 
 #include "BlinkingLed.h"
-
-// blank ctor for creation/allocation on heap
-BlinkingLed::BlinkingLed() {}
 
 // Minimum ctor (use defaults for frequency, dutyCycle)
 BlinkingLed::BlinkingLed(GPIO_TypeDef* port, uint16_t pin)
@@ -36,4 +32,3 @@ void BlinkingLed::processBlinking(){
 
 	}
 }
-

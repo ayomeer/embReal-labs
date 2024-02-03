@@ -1,5 +1,5 @@
 Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.o: \
- C:/Users/ayome/OneDrive/switchdrive/MSE/TSM_EmbReal/Part1/Projects/02/BlinkyClass/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c \
+ D:/git_repos/embReal-labs/Part1/02/BlinkyClass/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c \
  ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h745xx.h \
  ../../Drivers/CMSIS/Include/core_cm7.h \

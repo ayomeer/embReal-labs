@@ -86,7 +86,13 @@ static void MX_USB_OTG_FS_PCD_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+// Re-implementation of __weak _write function (has to be compiled w/ C-compiler!)
+int _write(int file, char *ptr, int len){
+  (void)file;
 
+  HAL_UART_Transmit(&huart3, (uint8_t*)ptr++, len, 10);
+  return len;
+}
 /* USER CODE END 0 */
 
 /**
@@ -155,6 +161,7 @@ Error_Handler();
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  cppMain();
   while (1)
   {
     /* USER CODE END WHILE */

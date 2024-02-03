@@ -1,6 +1,6 @@
 Drivers/BSP/IKS01A3/iks01a3_env_sensors.o: \
- C:/Users/ayome/OneDrive/switchdrive/MSE/TSM_EmbReal/Projects/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_env_sensors.c \
- C:/Users/ayome/OneDrive/switchdrive/MSE/TSM_EmbReal/Projects/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_env_sensors.h \
+ D:/git_repos/embReal-labs/Part1/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_env_sensors.c \
+ D:/git_repos/embReal-labs/Part1/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_env_sensors.h \
  ../X-CUBE-MEMS1/Target/iks01a3_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
@@ -47,7 +47,7 @@ Drivers/BSP/IKS01A3/iks01a3_env_sensors.o: \
  ../../Drivers/BSP/Components/lps22hh/lps22hh_reg.h \
  ../../Drivers/BSP/Components/stts751/stts751.h \
  ../../Drivers/BSP/Components/stts751/stts751_reg.h
-C:/Users/ayome/OneDrive/switchdrive/MSE/TSM_EmbReal/Projects/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_env_sensors.h:
+D:/git_repos/embReal-labs/Part1/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_env_sensors.h:
 ../X-CUBE-MEMS1/Target/iks01a3_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:

@@ -29,11 +29,31 @@ void IKS01A3_Motion::setZero(){
 	axisOffsets.z=-axisValues.z;
 }
 
+int32_t i = 0;
+int32_t sum = 0;
 // update AxisValues struct
 void IKS01A3_Motion::updateValues(uint32_t instance, uint32_t function){
 	IKS01A3_MOTION_SENSOR_Axes_t tmpAxisValues;
 	IKS01A3_MOTION_SENSOR_GetAxes(instance, function, &tmpAxisValues);
 
+	// testing
+
+
+	#ifdef CUSTOM_RING_ALLOCATOR
+
+	if(ringBufferAxisX.size()>5){ // ringBuffer full (6 elements)
+		// remove first (oldest) element from all buffers
+		ringBufferAxisX.erase(ringBufferAxisX.begin());
+		ringBufferAxisY.erase(ringBufferAxisY.begin());
+		ringBufferAxisZ.erase(ringBufferAxisZ.begin());
+		// NOTE: erase() reallocates vector elements. Not efficient but w/e
+	}
+	// append new value at the end of the vectors
+	ringBufferAxisX.push_back(tmpAxisValues.x);
+	ringBufferAxisY.push_back(tmpAxisValues.y);
+	ringBufferAxisZ.push_back(tmpAxisValues.z);
+
+	#else
 	// use ring buffers to store last 5 measurements + current one
 	ringBufferAxisX[0] = tmpAxisValues.x;
 	ringBufferAxisY[0] = tmpAxisValues.y;
@@ -41,6 +61,7 @@ void IKS01A3_Motion::updateValues(uint32_t instance, uint32_t function){
 	std::rotate(ringBufferAxisX.begin(), ringBufferAxisX.begin()+1, ringBufferAxisX.end());
 	std::rotate(ringBufferAxisY.begin(), ringBufferAxisY.begin()+1, ringBufferAxisY.end());
 	std::rotate(ringBufferAxisZ.begin(), ringBufferAxisZ.begin()+1, ringBufferAxisZ.end());
+	#endif
 
 	// use moving average of ring buffer contents as current value
 	axisValues.x = std::accumulate(ringBufferAxisX.begin(), ringBufferAxisX.end(), 0LL) / ringBufferAxisX.size();

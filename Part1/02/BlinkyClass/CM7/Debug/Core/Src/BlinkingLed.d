@@ -1,5 +1,5 @@
 Core/Src/BlinkingLed.o: ../Core/Src/BlinkingLed.cpp \
- ../Core/Inc/BlinkingLed.h ../Core/Inc/STM32H7Led.h \
+ ../Core/Src/BlinkingLed.h ../Core/Inc/STM32H7Led.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -37,7 +37,7 @@ Core/Src/BlinkingLed.o: ../Core/Src/BlinkingLed.cpp \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
  ../Core/Inc/NonBlockingDelay.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32H7xx_hal.h
-../Core/Inc/BlinkingLed.h:
+../Core/Src/BlinkingLed.h:
 ../Core/Inc/STM32H7Led.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:

@@ -1,6 +1,5 @@
 "./Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.o"
 "./Core/Src/BlinkingLed.o"
-"./Core/Src/MemPool.o"
 "./Core/Src/NonBlockingDelay.o"
 "./Core/Src/STM32H7Led.o"
 "./Core/Src/cppMain.o"

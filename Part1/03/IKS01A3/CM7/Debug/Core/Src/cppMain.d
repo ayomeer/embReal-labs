@@ -46,7 +46,12 @@ Core/Src/cppMain.o: ../Core/Src/cppMain.cpp ../Core/Inc/cppMain.h \
  ../../Drivers/BSP/Components/lis2dw12/lis2dw12.h \
  ../../Drivers/BSP/Components/lis2dw12/lis2dw12_reg.h \
  ../../Drivers/BSP/Components/lis2mdl/lis2mdl.h \
- ../../Drivers/BSP/Components/lis2mdl/lis2mdl_reg.h
+ ../../Drivers/BSP/Components/lis2mdl/lis2mdl_reg.h \
+ ../Core/Inc/util_ring_allocator.h ../Core/Inc/util_alignas.h \
+ ../Core/Inc/STM32H7led.h \
+ ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32H7xx_hal.h \
+ ../Core/Inc/SpiritLevelSingleAxis3LED.h ../Core/Inc/AccGyroSensor.h \
+ ../Core/Inc/STM32H7led.h
 ../Core/Inc/cppMain.h:
 ../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
@@ -99,3 +104,10 @@ Core/Src/cppMain.o: ../Core/Src/cppMain.cpp ../Core/Inc/cppMain.h \
 ../../Drivers/BSP/Components/lis2dw12/lis2dw12_reg.h:
 ../../Drivers/BSP/Components/lis2mdl/lis2mdl.h:
 ../../Drivers/BSP/Components/lis2mdl/lis2mdl_reg.h:
+../Core/Inc/util_ring_allocator.h:
+../Core/Inc/util_alignas.h:
+../Core/Inc/STM32H7led.h:
+../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32H7xx_hal.h:
+../Core/Inc/SpiritLevelSingleAxis3LED.h:
+../Core/Inc/AccGyroSensor.h:
+../Core/Inc/STM32H7led.h:

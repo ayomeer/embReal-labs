@@ -1,7 +1,7 @@
 Drivers/BSP/IKS01A3/iks01a3_motion_sensors_ex.o: \
- C:/Users/ayome/OneDrive/switchdrive/MSE/TSM_EmbReal/Projects/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_motion_sensors_ex.c \
- C:/Users/ayome/OneDrive/switchdrive/MSE/TSM_EmbReal/Projects/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_motion_sensors_ex.h \
- C:/Users/ayome/OneDrive/switchdrive/MSE/TSM_EmbReal/Projects/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.h \
+ D:/git_repos/embReal-labs/Part1/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_motion_sensors_ex.c \
+ D:/git_repos/embReal-labs/Part1/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_motion_sensors_ex.h \
+ D:/git_repos/embReal-labs/Part1/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.h \
  ../X-CUBE-MEMS1/Target/iks01a3_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
@@ -48,8 +48,8 @@ Drivers/BSP/IKS01A3/iks01a3_motion_sensors_ex.o: \
  ../../Drivers/BSP/Components/lis2dw12/lis2dw12_reg.h \
  ../../Drivers/BSP/Components/lis2mdl/lis2mdl.h \
  ../../Drivers/BSP/Components/lis2mdl/lis2mdl_reg.h
-C:/Users/ayome/OneDrive/switchdrive/MSE/TSM_EmbReal/Projects/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_motion_sensors_ex.h:
-C:/Users/ayome/OneDrive/switchdrive/MSE/TSM_EmbReal/Projects/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.h:
+D:/git_repos/embReal-labs/Part1/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_motion_sensors_ex.h:
+D:/git_repos/embReal-labs/Part1/03/IKS01A3/Drivers/BSP/IKS01A3/iks01a3_motion_sensors.h:
 ../X-CUBE-MEMS1/Target/iks01a3_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:

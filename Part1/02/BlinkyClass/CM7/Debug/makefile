@@ -76,8 +76,8 @@ all: main-build
 main-build: BlinkyClass_CM7.elf secondary-outputs
 
 # Tool invocations
-BlinkyClass_CM7.elf BlinkyClass_CM7.map: $(OBJS) $(USER_OBJS) C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Part1\Projects\02\BlinkyClass\CM7\STM32H745ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "BlinkyClass_CM7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Part1\Projects\02\BlinkyClass\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BlinkyClass_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+BlinkyClass_CM7.elf BlinkyClass_CM7.map: $(OBJS) $(USER_OBJS) D:\git_repos\embReal-labs\Part1\02\BlinkyClass\CM7\STM32H745ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "BlinkyClass_CM7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\git_repos\embReal-labs\Part1\02\BlinkyClass\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BlinkyClass_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

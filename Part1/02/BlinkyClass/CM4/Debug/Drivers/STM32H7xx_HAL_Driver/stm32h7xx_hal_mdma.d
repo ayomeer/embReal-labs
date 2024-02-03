@@ -1,5 +1,5 @@
 Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_mdma.o: \
- C:/Users/ayome/OneDrive/switchdrive/MSE/TSM_EmbReal/Part1/Projects/02/BlinkyClass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c \
+ D:/git_repos/embReal-labs/Part1/02/BlinkyClass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \

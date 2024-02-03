@@ -46,7 +46,8 @@ Core/Src/IKS01A3_Motion.o: ../Core/Src/IKS01A3_Motion.cpp \
  ../../Drivers/BSP/Components/lis2dw12/lis2dw12.h \
  ../../Drivers/BSP/Components/lis2dw12/lis2dw12_reg.h \
  ../../Drivers/BSP/Components/lis2mdl/lis2mdl.h \
- ../../Drivers/BSP/Components/lis2mdl/lis2mdl_reg.h
+ ../../Drivers/BSP/Components/lis2mdl/lis2mdl_reg.h \
+ ../Core/Inc/util_ring_allocator.h ../Core/Inc/util_alignas.h
 ../Core/Inc/IKS01A3_Motion.h:
 ../../Drivers/BSP/IKS01A3/iks01a3_motion_sensors.h:
 ../X-CUBE-MEMS1/Target/iks01a3_conf.h:
@@ -96,3 +97,5 @@ Core/Src/IKS01A3_Motion.o: ../Core/Src/IKS01A3_Motion.cpp \
 ../../Drivers/BSP/Components/lis2dw12/lis2dw12_reg.h:
 ../../Drivers/BSP/Components/lis2mdl/lis2mdl.h:
 ../../Drivers/BSP/Components/lis2mdl/lis2mdl_reg.h:
+../Core/Inc/util_ring_allocator.h:
+../Core/Inc/util_alignas.h:

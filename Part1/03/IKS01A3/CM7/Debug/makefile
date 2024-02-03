@@ -78,8 +78,8 @@ all: main-build
 main-build: IKS01A3_CM7.elf secondary-outputs
 
 # Tool invocations
-IKS01A3_CM7.elf IKS01A3_CM7.map: $(OBJS) $(USER_OBJS) C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Projects\03\IKS01A3\CM7\STM32H745ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "IKS01A3_CM7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Projects\03\IKS01A3\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IKS01A3_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+IKS01A3_CM7.elf IKS01A3_CM7.map: $(OBJS) $(USER_OBJS) D:\git_repos\embReal-labs\Part1\03\IKS01A3\CM7\STM32H745ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "IKS01A3_CM7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\git_repos\embReal-labs\Part1\03\IKS01A3\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IKS01A3_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

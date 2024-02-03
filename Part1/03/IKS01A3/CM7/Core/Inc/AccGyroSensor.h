@@ -15,8 +15,8 @@
 
 class AccGyroSensor {
 public:
-	// composition: AccGyroSensor /has vital component/ IKS01a3_Motion
-	IKS01A3_Motion Acc;
+	// composition: AccGyroSensor has /vital/ component IKS01a3_Motion
+	IKS01A3_Motion Acc; // public for direct access w/o getter/setter
 	IKS01A3_Motion Gyro;
 
 	AccGyroSensor();

@@ -1,0 +1,8 @@
+../Core_CPP/Src/BlinkingLed.cpp:12:1:BlinkingLed::BlinkingLed()	1
+../Core_CPP/Src/BlinkingLed.cpp:16:1:BlinkingLed::BlinkingLed(GPIO_TypeDef*, uint16_t)	1
+../Core_CPP/Src/BlinkingLed.cpp:22:1:BlinkingLed::~BlinkingLed()	1
+../Core_CPP/Src/BlinkingLed.cpp:22:1:virtual BlinkingLed::~BlinkingLed()	1
+../Core_CPP/Src/BlinkingLed.cpp:26:6:void BlinkingLed::setDutyCycle(uint8_t)	1
+../Core_CPP/Src/BlinkingLed.cpp:30:6:void BlinkingLed::setFrequency(float)	1
+../Core_CPP/Src/BlinkingLed.cpp:34:6:void BlinkingLed::setPinPort(GPIO_TypeDef*, uint16_t)	1
+../Core_CPP/Src/BlinkingLed.cpp:39:6:void BlinkingLed::processBlinking()	2

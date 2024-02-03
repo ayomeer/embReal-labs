@@ -15,6 +15,8 @@ C_SRCS += \
 CPP_SRCS += \
 ../Core/Src/AccGyroSensor.cpp \
 ../Core/Src/IKS01A3_Motion.cpp \
+../Core/Src/STM32H7led.cpp \
+../Core/Src/SpiritLevelSingleAxis3LED.cpp \
 ../Core/Src/cppMain.cpp 
 
 C_DEPS += \
@@ -28,6 +30,8 @@ C_DEPS += \
 OBJS += \
 ./Core/Src/AccGyroSensor.o \
 ./Core/Src/IKS01A3_Motion.o \
+./Core/Src/STM32H7led.o \
+./Core/Src/SpiritLevelSingleAxis3LED.o \
 ./Core/Src/cppMain.o \
 ./Core/Src/main.o \
 ./Core/Src/stm32h7xx_hal_msp.o \
@@ -39,6 +43,8 @@ OBJS += \
 CPP_DEPS += \
 ./Core/Src/AccGyroSensor.d \
 ./Core/Src/IKS01A3_Motion.d \
+./Core/Src/STM32H7led.d \
+./Core/Src/SpiritLevelSingleAxis3LED.d \
 ./Core/Src/cppMain.d 
 
 
@@ -51,7 +57,7 @@ Core/Src/%.o Core/Src/%.su Core/Src/%.cyclo: ../Core/Src/%.c Core/Src/subdir.mk
 clean: clean-Core-2f-Src
 
 clean-Core-2f-Src:
-	-$(RM) ./Core/Src/AccGyroSensor.cyclo ./Core/Src/AccGyroSensor.d ./Core/Src/AccGyroSensor.o ./Core/Src/AccGyroSensor.su ./Core/Src/IKS01A3_Motion.cyclo ./Core/Src/IKS01A3_Motion.d ./Core/Src/IKS01A3_Motion.o ./Core/Src/IKS01A3_Motion.su ./Core/Src/cppMain.cyclo ./Core/Src/cppMain.d ./Core/Src/cppMain.o ./Core/Src/cppMain.su ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32h7xx_hal_msp.cyclo ./Core/Src/stm32h7xx_hal_msp.d ./Core/Src/stm32h7xx_hal_msp.o ./Core/Src/stm32h7xx_hal_msp.su ./Core/Src/stm32h7xx_it.cyclo ./Core/Src/stm32h7xx_it.d ./Core/Src/stm32h7xx_it.o ./Core/Src/stm32h7xx_it.su ./Core/Src/stm32h7xx_nucleo_bus.cyclo ./Core/Src/stm32h7xx_nucleo_bus.d ./Core/Src/stm32h7xx_nucleo_bus.o ./Core/Src/stm32h7xx_nucleo_bus.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su
+	-$(RM) ./Core/Src/AccGyroSensor.cyclo ./Core/Src/AccGyroSensor.d ./Core/Src/AccGyroSensor.o ./Core/Src/AccGyroSensor.su ./Core/Src/IKS01A3_Motion.cyclo ./Core/Src/IKS01A3_Motion.d ./Core/Src/IKS01A3_Motion.o ./Core/Src/IKS01A3_Motion.su ./Core/Src/STM32H7led.cyclo ./Core/Src/STM32H7led.d ./Core/Src/STM32H7led.o ./Core/Src/STM32H7led.su ./Core/Src/SpiritLevelSingleAxis3LED.cyclo ./Core/Src/SpiritLevelSingleAxis3LED.d ./Core/Src/SpiritLevelSingleAxis3LED.o ./Core/Src/SpiritLevelSingleAxis3LED.su ./Core/Src/cppMain.cyclo ./Core/Src/cppMain.d ./Core/Src/cppMain.o ./Core/Src/cppMain.su ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32h7xx_hal_msp.cyclo ./Core/Src/stm32h7xx_hal_msp.d ./Core/Src/stm32h7xx_hal_msp.o ./Core/Src/stm32h7xx_hal_msp.su ./Core/Src/stm32h7xx_it.cyclo ./Core/Src/stm32h7xx_it.d ./Core/Src/stm32h7xx_it.o ./Core/Src/stm32h7xx_it.su ./Core/Src/stm32h7xx_nucleo_bus.cyclo ./Core/Src/stm32h7xx_nucleo_bus.d ./Core/Src/stm32h7xx_nucleo_bus.o ./Core/Src/stm32h7xx_nucleo_bus.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su
 
 .PHONY: clean-Core-2f-Src
 

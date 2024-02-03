@@ -20,9 +20,9 @@ private:
 	uint16_t pin;
 
 public:
-	STM32H7Led();
+	// STM32H7Led(); // (!) needed if superclass makes obj and sets needed
+					 // (protected) attributes of subclasses in constructor
 	STM32H7Led(GPIO_TypeDef* port, uint16_t pin);
-	void setPortPin(GPIO_TypeDef* port, uint16_t pin); // needed for creation on heap
 	void toggleLED();
 
 

@@ -76,8 +76,8 @@ all: main-build
 main-build: autoconsole_CM4.elf secondary-outputs
 
 # Tool invocations
-autoconsole_CM4.elf autoconsole_CM4.map: $(OBJS) $(USER_OBJS) C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Projects\03\autoconsole\CM4\STM32H745ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "autoconsole_CM4.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\ayome\OneDrive\switchdrive\MSE\TSM_EmbReal\Projects\03\autoconsole\CM4\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="autoconsole_CM4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+autoconsole_CM4.elf autoconsole_CM4.map: $(OBJS) $(USER_OBJS) D:\git_repos\embReal-labs\Part1\03\autoconsole\CM4\STM32H745ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "autoconsole_CM4.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\git_repos\embReal-labs\Part1\03\autoconsole\CM4\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="autoconsole_CM4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
