@@ -23,8 +23,8 @@
   - `Motion`-class for Gyro and Accelerometer
   - Circular buffer as array container 
   - Buffer mean using array container iterator
+  - `#define SPIRITLEVEL` -> **Kormanyo vector ringbuffer** (.data) for sensor data averaging
  
-
 # Importing as CubeIDE Project
 
 1) Pull Repo (if updating: `git reset @{u}`)
