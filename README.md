@@ -14,7 +14,7 @@
   - Using **namespace** `myhal` to organize LED class and non-blocking delay class into a package
   - Heap memory pool using smartpointer
 
-## Week 3
+## Week 3 / 4
 - autoconsole (C++)
   - auto type
   - print to console
@@ -24,7 +24,10 @@
   - Circular buffer as array container 
   - Buffer mean using array container iterator
   - `#define SPIRITLEVEL` -> **Kormanyo vector ringbuffer** (.data) for sensor data averaging
-  - [Min, Avg, Max] map
+  - [Min, Avg, Max] tracking using map STL container
+
+## Week 4
+- Blinky using MemPool on heap (use solutions for reference)
  
 # Importing as CubeIDE Project
 
