@@ -30,7 +30,7 @@ void cppMain(){
 		spiritLevel.updateValues();
 		spiritLevel.show();
 
-		HAL_Delay(50);
+		HAL_Delay(100);
 	}
 
 	#else

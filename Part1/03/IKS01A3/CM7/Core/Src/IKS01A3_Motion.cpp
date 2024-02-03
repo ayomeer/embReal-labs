@@ -8,6 +8,7 @@
 #include "IKS01A3_Motion.h"
 #include <algorithm> // std::rotate
 #include <numeric>   // std::accumulate
+#include <algorithm>
 
 IKS01A3_Motion::IKS01A3_Motion() {}
 
@@ -33,14 +34,12 @@ int32_t i = 0;
 int32_t sum = 0;
 // update AxisValues struct
 void IKS01A3_Motion::updateValues(uint32_t instance, uint32_t function){
+	// get sensor values and store in local 'tmpAxisValues'
 	IKS01A3_MOTION_SENSOR_Axes_t tmpAxisValues;
 	IKS01A3_MOTION_SENSOR_GetAxes(instance, function, &tmpAxisValues);
 
-	// testing
-
-
+	// update ring buffer
 	#ifdef CUSTOM_RING_ALLOCATOR
-
 	if(ringBufferAxisX.size()>5){ // ringBuffer full (6 elements)
 		// remove first (oldest) element from all buffers
 		ringBufferAxisX.erase(ringBufferAxisX.begin());
@@ -67,6 +66,11 @@ void IKS01A3_Motion::updateValues(uint32_t instance, uint32_t function){
 	axisValues.x = std::accumulate(ringBufferAxisX.begin(), ringBufferAxisX.end(), 0LL) / ringBufferAxisX.size();
 	axisValues.y = std::accumulate(ringBufferAxisY.begin(), ringBufferAxisY.end(), 0LL) / ringBufferAxisY.size();
 	axisValues.z = std::accumulate(ringBufferAxisZ.begin(), ringBufferAxisZ.end(), 0LL) / ringBufferAxisZ.size();
+
+	// update Ystats
+	Ystats["Min"]= *std::min_element(ringBufferAxisY.begin(), ringBufferAxisY.end());
+	Ystats["Avg"]= tmpAxisValues.y;
+	Ystats["Max"]= *std::max_element(ringBufferAxisY.begin(), ringBufferAxisY.end());
 }
 
 void IKS01A3_Motion::getValues(int32_t* XAxis, int32_t* YAxis, int32_t* ZAxis){
@@ -74,3 +78,5 @@ void IKS01A3_Motion::getValues(int32_t* XAxis, int32_t* YAxis, int32_t* ZAxis){
 	*YAxis = axisValues.y + axisOffsets.y;
 	*ZAxis = axisValues.z + axisOffsets.z;
 }
+
+
