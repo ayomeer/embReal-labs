@@ -23,4 +23,14 @@
   - `Motion`-class for Gyro and Accelerometer
   - Circular buffer as array container 
   - Buffer mean using array container iterator
+  - `#define SPIRITLEVEL` -> **Kormanyo vector ringbuffer** (.data) for sensor data averaging
  
+# Importing as CubeIDE Project
+
+1) Pull Repo (if updating, do `git reset @{u}` beforehand)
+2) Delete .location files for project and sub-projects under ´.metadata\.plugins\org.eclipse.core.resources\.projects´
+3) Open CubeIDE using *different workspace* than the repo itself
+4) Import Existing Project and wait for indexer to finish
+5) Build sub-projects
+
+Should even have run configurations ready
