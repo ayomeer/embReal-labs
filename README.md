@@ -24,6 +24,7 @@
   - Circular buffer as array container 
   - Buffer mean using array container iterator
   - `#define SPIRITLEVEL` -> **Kormanyo vector ringbuffer** (.data) for sensor data averaging
+	- [Min, Avg, Max] map
  
 # Importing as CubeIDE Project
 
