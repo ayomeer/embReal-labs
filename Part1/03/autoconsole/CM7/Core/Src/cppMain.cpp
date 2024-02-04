@@ -8,7 +8,7 @@ extern UART_HandleTypeDef huart3;
 void cppMain(){
 	std::cout<<"printing incrementing auto variable: \n\r";
 	for(auto i=0; i<256; i++){
-		std::cout<<"i: " << i << "\n\r";
+		std::cout<<"i: " << i << "\n\r"; // works better than 'endl'
 		HAL_Delay(50);
 	}
 

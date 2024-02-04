@@ -1,0 +1,4 @@
+in main.c (CM7), add:
+
+#include "cppMain.h"
+cppMain(); before while(1)-loop
