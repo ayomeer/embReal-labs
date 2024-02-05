@@ -44,3 +44,5 @@
 5) Build sub-projects
 
 Should even have run configurations ready
+
+If you get "No rule to make target", clean sub-projects!
