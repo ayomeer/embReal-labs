@@ -14,6 +14,12 @@
   - Using **namespace** `myhal` to organize LED class and non-blocking delay class into a package
   - Heap memory pool using smartpointer
 
+- Template
+  - Template function
+  - std::sort(), pointer arithmetic
+  - console output
+  - passing array
+
 ## Week 3 / 4
 - autoconsole (C++)
   - auto type
